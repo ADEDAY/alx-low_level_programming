@@ -3,7 +3,6 @@
  * main - entry point
  *
  * Return: alway returns 0
- *
  */
 int main(void)
 {
@@ -11,11 +10,11 @@ int main(void)
 
 	for (a = 'a'; a <= 'z' ; a++)
 	{
-	if (a == 'q' || a == 'e')
-	{
-	continu;													
-	}
-	putchar(a);
+		if (a == 'q' || a == 'e')
+		{
+			continue;
+		}
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
